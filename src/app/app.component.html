@@ -1,0 +1,18 @@
+<app-sidebar>
+  <div class="sidebar-item {{item.classes}}" routerLink="{{item.route}}" routerLinkActive="sidebar-item-selected" *ngFor="let item of menu">
+    <i class="fa {{item.icon}}" aria-hidden="true"></i>
+  </div>
+</app-sidebar>
+<div class="toolbar">
+  <h1>
+    {{ toolbarTitle | capitalize}}
+  </h1>
+</div>
+
+<router-outlet></router-outlet>
+
+
+<!-- 
+<div draggable *ngFor="let test of testJSON, let i = index" [attr.data-selected]="abs[i]" [class.draggableAbs]="abs[i]" (mousedown)="setAbs(i)">
+  <h1>{{test.id}}</h1>
+</div> -->

@@ -1,0 +1,17 @@
+@import 'colours';
+.toolbar {
+    height: 40px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    padding-left: 15px;
+    background-color: $midnight-blue;
+    z-index: -10;
+    display: table;
+    h1 {
+        color: $iron;
+        font-size: 22px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

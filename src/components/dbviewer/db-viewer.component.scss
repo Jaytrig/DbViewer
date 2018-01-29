@@ -1,0 +1,29 @@
+@import 'colours';
+.mat-tab-label {
+    height: 40px !important; // border-left: 0.55px solid $iron;
+    // border-right: 0.55px solid $iron;
+}
+
+.mat-tab-group {
+    height: 100%;
+    overflow: hidden;
+}
+
+.mat-tab-body-wrapper {
+    height: 100%;
+}
+
+.mat-tab-label {
+    opacity: 1 !important;
+    background-color: $pale-sky;
+    color: $white;
+}
+
+.mat-tab-label-active {
+    background-color: $midnight-blue;
+    color: $white;
+}
+
+.mat-tab-label-container {
+    background-color: $iron;
+}

@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'node_modules/bulma/bulma';
+@import 'styles/font-awesome/font-awesome';
+@import 'styles/colours';
+body {
+    height: 100vh;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+* {
+    &:focus {
+        outline: none;
+    }
+}
