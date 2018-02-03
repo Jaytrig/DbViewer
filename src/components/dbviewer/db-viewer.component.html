@@ -1,5 +1,5 @@
 <mat-tab-group (selectedTabChange)="tabChanged($event)" (click)="tabClick()" disableRipple="true">
   <mat-tab *ngFor="let tab of tabs" [label]="tab.header">
-    <app-database [database]="tab"></app-database>
+    <app-database [database]="tab.database"></app-database>
   </mat-tab>
 </mat-tab-group>

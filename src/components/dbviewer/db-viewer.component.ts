@@ -35,7 +35,7 @@ export class DbViewerComponent implements OnInit {
     tabChanged = (tabChangeEvent: MatTabChangeEvent): void => {
         this.cd.detectChanges();
     }
-    
+
     click() {
         console.log('click');
     }
