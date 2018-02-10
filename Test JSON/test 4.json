@@ -1,0 +1,28 @@
+{
+    "Database": {
+        "errors": [{
+            "date": "20180202",
+            "error": "[\"HttpError AddSiteService\",{\"_body\":{\"isTrusted\":true},\"status\":0,\"ok\":false,\"statusText\":\"\",\"headers\":{},\"type\":3,\"url\":null}]",
+            "id": 50
+        }, {
+            "date": "20180202",
+            "error": "[\"HttpError AddSiteService\",\"Timed out connectioning to API\"]",
+            "id": 51
+        }, {
+            "date": "20180202",
+            "error": "[\"HttpError GetSites\",{\"_body\":{\"isTrusted\":true},\"status\":0,\"ok\":false,\"statusText\":\"\",\"headers\":{},\"type\":3,\"url\":null}]",
+            "id": 52
+        }, {
+            "date": "20180202",
+            "error": "[\"HttpError\",{\"_body\":{\"isTrusted\":true},\"status\":0,\"ok\":false,\"statusText\":\"\",\"headers\":{},\"type\":3,\"url\":null}]",
+            "id": 53
+        }, {
+            "date": "20180202",
+            "error": "[\"HttpError SiteService\",{\"_body\":{\"isTrusted\":true},\"status\":0,\"ok\":false,\"statusText\":\"\",\"headers\":{},\"type\":3,\"url\":null}]",
+            "id": 54
+        }]
+    },
+    "Schema": {
+        "errors": "++id, date, error"
+    }
+}
